@@ -1,0 +1,155 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+html{
+  font-size: 62.5%;
+}
+
+body {
+  /* font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: Roboto, serif;
+  font-size: 1.6rem;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+*{
+    box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  max-width: 1160px;
+  margin: 0 auto;
+  /* border: 1px solid gold; */
+}
+.section-padding{
+  padding: 5em 0;
+}
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+section{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 50px;
+  text-align: center;
+}
+body{
+  background: #0B0B12;
+  color: white;
+}
+#gallery > *{
+  width: 100%;
+}
+h1{
+  font-size: 30px;
+  color: hotpink;
+  padding-top: 30px;
+}
+.input-field{
+  display: flex;
+}
+.input-field > *{
+  flex: 1;
+  padding: 5px 0;
+  margin: 0 3px;
+  border-radius: 5px;
+}
+.input-field input{
+  flex-basis: 250px;
+  border: 0;
+}
+.input-field button{
+  flex-basis: 50px;
+  font-weight: 100;
+  font-size: 16px;
+  background: hotpink;
+  border: 0;
+  color: white;
+}
+
+
+
