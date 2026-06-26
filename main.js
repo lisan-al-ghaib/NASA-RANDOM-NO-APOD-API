@@ -23,6 +23,7 @@ function getImg(){
 // document.querySelector("body").appendChild(h1);
 
 function displayImgs(arr){
+    let gallery = document.getElementById("gallery");
     gallery.replaceChildren();
 
     for(let i = 0; i < arr.length; i++){
@@ -32,4 +33,3 @@ function displayImgs(arr){
     }
 }
 
-document.querySelector("h2").remove
